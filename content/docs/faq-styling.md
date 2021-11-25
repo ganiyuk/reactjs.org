@@ -22,7 +22,7 @@ It is common for CSS classes to depend on the component props or state:
 render() {
   let className = 'menu';
   if (this.props.isActive) {
-    className += ' menu-active';
+    className += ' menu-actives';
   }
   return <span className={className}>Menu</span>
 }
